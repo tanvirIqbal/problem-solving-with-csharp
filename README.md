@@ -16,3 +16,8 @@ CtoF(-300) → "Temperature below absolute zero!"
 Given two integers, write a method that returns results of their elementary arithmetic operations: addition, substraction, multiplication, division. Remember that you can't divide any number by 0!  
 Expected input and output   
 ElementaryOperations(3, 8) → 11, -5, 24, 0.375  
+
+### Basic Problem 4
+Given three integers, write a method that returns first number divided modulo by second one and these divided modulo by third one.  
+Expected input and output   
+ModuloOperations(8, 5, 2) → 1  

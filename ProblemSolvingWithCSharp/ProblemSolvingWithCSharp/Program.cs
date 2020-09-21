@@ -8,7 +8,8 @@ namespace ProblemSolvingWithCSharp
         {
             //BasicProblem.AddAndMultiply();
             //BasicProblem.CelsiusToFahrenheit();
-            BasicProblem.ElementaryOperations();
+            //BasicProblem.ElementaryOperations();
+            BasicProblem.ModuloOperations();
         }
     }
 }

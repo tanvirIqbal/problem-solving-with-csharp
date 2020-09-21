@@ -81,5 +81,28 @@ namespace ProblemSolvingWithCSharp
             }
             Console.WriteLine(String.Format($"a + b = {addition}, a - b = {substraction}, a * b = {multiplication}, a / b = {division}"));
         }
+        public static void ModuloOperations()
+        {
+            /*
+             *  Given three integers, write a method that returns first number divided modulo by second one and these divided modulo by third one.
+                Expected input and output 
+                ModuloOperations(8, 5, 2) → 1
+             */
+            int firstNumber, secondNumber, thirdNumber;
+            bool success1, success2, success3;
+            Console.WriteLine("Enter First Number");
+            success1 = Int32.TryParse(Console.ReadLine(), out firstNumber);
+            Console.WriteLine("Enter Second Number");
+            success2 = Int32.TryParse(Console.ReadLine(), out secondNumber);
+            Console.WriteLine("Enter Third Number");
+            success3 = Int32.TryParse(Console.ReadLine(), out thirdNumber);
+
+            if (!success1 || !success2 || !success3)
+            {
+                Console.WriteLine("You have entered invalid number.");
+                return;
+            }
+            Console.WriteLine("Result: " + firstNumber % secondNumber % thirdNumber);
+        }
     }
 }
