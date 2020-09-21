@@ -21,3 +21,9 @@ ElementaryOperations(3, 8) → 11, -5, 24, 0.375
 Given three integers, write a method that returns first number divided modulo by second one and these divided modulo by third one.  
 Expected input and output   
 ModuloOperations(8, 5, 2) → 1  
+
+### Basic Problem 5
+Given a number, write a method that returns its cube.  
+Expected input and output  
+TheCubeOf(2) → 8  
+TheCubeOf(-5.5) → -166.375  

@@ -104,5 +104,24 @@ namespace ProblemSolvingWithCSharp
             }
             Console.WriteLine("Result: " + firstNumber % secondNumber % thirdNumber);
         }
+        public static void TheCubeOf()
+        {
+            /*
+             *  Given a number, write a method that returns its cube.  
+                Expected input and output  
+                TheCubeOf(2) → 8  
+                TheCubeOf(-5.5) → -166.375  
+             */
+            bool success1;
+            Console.WriteLine("Enter a Number");
+            success1 = Double.TryParse(Console.ReadLine(), out double firstNumber);
+
+            if (!success1)
+            {
+                Console.WriteLine("You have entered invalid number.");
+                return;
+            }
+            Console.WriteLine("Result: " + firstNumber * firstNumber * firstNumber);
+        }
     }
 }
