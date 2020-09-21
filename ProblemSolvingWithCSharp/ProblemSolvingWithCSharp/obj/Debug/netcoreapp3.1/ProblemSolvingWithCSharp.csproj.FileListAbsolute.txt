@@ -1,0 +1,13 @@
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\bin\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.exe
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\bin\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.deps.json
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\bin\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.runtimeconfig.json
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\bin\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.runtimeconfig.dev.json
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\bin\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.dll
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\bin\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.pdb
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.csprojAssemblyReference.cache
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.AssemblyInfoInputs.cache
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.AssemblyInfo.cs
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.csproj.CoreCompileInputs.cache
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.dll
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.pdb
+E:\Learning\GitHub\problem-solving-with-csharp\ProblemSolvingWithCSharp\ProblemSolvingWithCSharp\obj\Debug\netcoreapp3.1\ProblemSolvingWithCSharp.genruntimeconfig.cache
