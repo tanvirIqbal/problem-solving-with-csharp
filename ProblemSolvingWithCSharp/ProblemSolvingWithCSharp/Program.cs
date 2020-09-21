@@ -10,7 +10,8 @@ namespace ProblemSolvingWithCSharp
             //BasicProblem.CelsiusToFahrenheit();
             //BasicProblem.ElementaryOperations();
             //BasicProblem.ModuloOperations();
-            BasicProblem.TheCubeOf();
+            //BasicProblem.TheCubeOf();
+            BasicProblem.SwapTwoNumbers();
         }
     }
 }

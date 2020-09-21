@@ -123,5 +123,31 @@ namespace ProblemSolvingWithCSharp
             }
             Console.WriteLine("Result: " + firstNumber * firstNumber * firstNumber);
         }
+        public static void SwapTwoNumbers()
+        {
+            /*
+             * Given two integers, write a method that swaps them using temporary variable.
+                Expected input and output 
+                SwapTwoNumbers(87, 45) → "Before: a = 87, b = 45; After: a = 45, b = 87"
+                SwapTwoNumbers(-13, 2) → "Before: a = -13, b = 2; After: a = 2, b = -13"
+             */
+            int tempNumber;
+            bool success1, success2;
+            Console.WriteLine("Enter a");
+            success1 = Int32.TryParse(Console.ReadLine(), out int firstNumber);
+            Console.WriteLine("Enter b");
+            success2 = Int32.TryParse(Console.ReadLine(), out int secondNumber);
+            string before = $"Before: a = {firstNumber}, b = {secondNumber}; ";
+            tempNumber = firstNumber;
+            firstNumber = secondNumber;
+            secondNumber = tempNumber;
+            string after = $"After: a = {firstNumber}, b = {secondNumber}; ";
+            if (!success1 || !success2)
+            {
+                Console.WriteLine("You have entered invalid number.");
+                return;
+            }
+            Console.WriteLine(before + after);
+        }
     }
 }
