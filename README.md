@@ -1,7 +1,7 @@
 # Problem Solving Using C#
 
 ## Contents
-###Basic Problems
+### Basic Problems  
 [Basic Problem 1 - Add two numbers](#basic-problem-1)  
 [Basic Problem 2 - Celsius to Fahrenheit](#basic-problem-2)  
 [Basic Problem 3 - Elementary operations](#basic-problem-3)  
