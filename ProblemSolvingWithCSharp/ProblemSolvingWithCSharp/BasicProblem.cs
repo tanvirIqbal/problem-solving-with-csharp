@@ -27,5 +27,35 @@ namespace ProblemSolvingWithCSharp
             }
             Console.WriteLine("Result: " + (firstNumber + secondNumber) * thirdNumber);
         }
+
+        public static void CelsiusToFahrenheit()
+        {
+            /*
+                Given a temperature in Celsius degrees, write a method that converts it to Fahrenheit degrees. Remember that temperature below -271.15°C (absolute zero) does not exist!
+                Expected input and output 
+                CtoF(0) → "T = 32F"
+                CtoF(100) → "T = 212F"
+                CtoF(-300) → "Temperature below absolute zero!"
+             */
+            double celsiusValue, fahrenheitValue;
+            bool success1;
+            Console.WriteLine("Enter Celsius Value");
+            success1 = Double.TryParse(Console.ReadLine(), out celsiusValue);
+
+            if (!success1)
+            {
+                Console.WriteLine("You have entered invalid value.");
+                return;
+            }
+            fahrenheitValue = celsiusValue * 1.8 + 32;
+            if (fahrenheitValue < -271.15)
+            {
+                Console.WriteLine("Temperature below absolute zero!");
+            }
+            else
+            {
+                Console.WriteLine("T = " + fahrenheitValue + "F");
+            }
+        }
     }
 }

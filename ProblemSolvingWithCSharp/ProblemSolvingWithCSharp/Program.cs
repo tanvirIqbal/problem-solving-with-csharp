@@ -6,7 +6,8 @@ namespace ProblemSolvingWithCSharp
     {
         static void Main(string[] args)
         {
-            BasicProblem.AddAndMultiply();
+            //BasicProblem.AddAndMultiply();
+            BasicProblem.CelsiusToFahrenheit();
         }
     }
 }
