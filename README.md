@@ -2,12 +2,12 @@
 
 ## Contents
 ###Basic Problems
-[Add two numbers](#basic-problem-1)
-[Celsius to Fahrenheit](#basic-problem-2)
-[Elementary operations](#basic-problem-3)
-[Modulo operations](#basic-problem-4)
-[The cube of](#basic-problem-5)
-[Swap two numbers](#basic-problem-6)
+[Basic Problem 1 - Add two numbers](#basic-problem-1)  
+[Basic Problem 2 - Celsius to Fahrenheit](#basic-problem-2)  
+[Basic Problem 3 - Elementary operations](#basic-problem-3)  
+[Basic Problem 4 - Modulo operations](#basic-problem-4)  
+[Basic Problem 5 - The cube of](#basic-problem-5)  
+[Basic Problem 6 - Swap two numbers](#basic-problem-6)  
 
 ### Basic Problem 1 
 Given three numbers, write a method that adds two first ones and multiplies them by a third one.
