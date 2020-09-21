@@ -27,7 +27,6 @@ namespace ProblemSolvingWithCSharp
             }
             Console.WriteLine("Result: " + (firstNumber + secondNumber) * thirdNumber);
         }
-
         public static void CelsiusToFahrenheit()
         {
             /*
@@ -56,6 +55,31 @@ namespace ProblemSolvingWithCSharp
             {
                 Console.WriteLine("T = " + fahrenheitValue + "F");
             }
+        }
+        public static void ElementaryOperations()
+        {
+            /*
+             *  Given two integers, write a method that returns results of their elementary arithmetic operations: addition, substraction, multiplication, division. Remember that you can't divide any number by 0!
+                Expected input and output 
+                ElementaryOperations(3, 8) → 11, -5, 24, 0.375
+             */
+            double addition, substraction, multiplication;
+            double division;
+            bool success1, success2;
+            Console.WriteLine("Enter a");
+            success1 = Double.TryParse(Console.ReadLine(), out double firstNumber);
+            Console.WriteLine("Enter b");
+            success2 = Double.TryParse(Console.ReadLine(), out double secondNumber);
+            addition = firstNumber + secondNumber;
+            substraction = firstNumber - secondNumber;
+            multiplication = firstNumber * secondNumber;
+            division = secondNumber != 0 ? firstNumber / secondNumber : 0;
+            if (!success1 || !success2)
+            {
+                Console.WriteLine("You have entered invalid number.");
+                return;
+            }
+            Console.WriteLine(String.Format($"a + b = {addition}, a - b = {substraction}, a * b = {multiplication}, a / b = {division}"));
         }
     }
 }
