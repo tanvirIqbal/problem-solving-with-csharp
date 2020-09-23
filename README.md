@@ -11,6 +11,7 @@
 
 ### Conditional Statements Problems  
 [Conditional Statements Problem 1 - Absolute value](#conditional-statements-problem-1)  
+[Conditional Statements Problem 2 - Divisible by 2 or 3](#conditional-statements-problem-2)  
 
 ### Basic Problem 1 
 Given three numbers, write a method that adds two first ones and multiplies them by a third one.
@@ -49,3 +50,10 @@ Given an integer, write a method that returns its absolute value.
 Expected input and output   
 AbsoluteValue(6832) → 6832  
 AbsoluteValue(-392) → 392  
+
+### Conditional Statements Problem 2  
+Given two integers, write a method that returns their multiplication if they are both divisible by 2 or 3, otherwise returns thier sum.  
+Expected input and output  
+DivisibleBy2Or3(15, 30) → 450  
+DivisibleBy2Or3(2, 90) → 180  
+DivisibleBy2Or3(7, 12) → 19  

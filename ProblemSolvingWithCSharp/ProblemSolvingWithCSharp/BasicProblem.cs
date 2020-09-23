@@ -172,5 +172,26 @@ namespace ProblemSolvingWithCSharp
             //Console.WriteLine("Result: " + (firstNumber >= 0 ? firstNumber : firstNumber*-1));
             Console.WriteLine("Result: " + Math.Abs(firstNumber));
         }
+        public static void DivisibleBy2Or3()
+        {
+            /*
+             *  Given two integers, write a method that returns their multiplication if they are both divisible by 2 or 3, otherwise returns thier sum.
+                Expected input and output 
+                DivisibleBy2Or3(15, 30) → 450
+                DivisibleBy2Or3(2, 90) → 180
+                DivisibleBy2Or3(7, 12) → 19
+             */
+            bool success1, success2;
+            Console.WriteLine("Enter a");
+            success1 = Int32.TryParse(Console.ReadLine(), out int firstNumber);
+            Console.WriteLine("Enter b");
+            success2 = Int32.TryParse(Console.ReadLine(), out int secondNumber);
+            if (!success1 || !success2)
+            {
+                Console.WriteLine("You have entered invalid number.");
+                return;
+            }
+            Console.WriteLine(((firstNumber % 2 == 0 && secondNumber % 2 == 0) || (firstNumber % 3 == 0 && secondNumber % 3 == 0)) ? firstNumber * secondNumber : firstNumber + secondNumber);
+        }
     }
 }

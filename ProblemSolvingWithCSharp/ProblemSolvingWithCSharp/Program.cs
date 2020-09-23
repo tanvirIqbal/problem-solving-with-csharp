@@ -15,7 +15,8 @@ namespace ProblemSolvingWithCSharp
             //BasicProblem.SwapTwoNumbers(); 
             #endregion
 
-            BasicProblem.AbsoluteValue();
+            //BasicProblem.AbsoluteValue();
+            BasicProblem.DivisibleBy2Or3();
         }
     }
 }
