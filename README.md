@@ -9,6 +9,9 @@
 [Basic Problem 5 - The cube of](#basic-problem-5)  
 [Basic Problem 6 - Swap two numbers](#basic-problem-6)  
 
+### Conditional Statements Problems  
+[Conditional Statements Problem 1 - Absolute value](#conditional-statements-problem-1)  
+
 ### Basic Problem 1 
 Given three numbers, write a method that adds two first ones and multiplies them by a third one.
 
@@ -40,3 +43,9 @@ Given two integers, write a method that swaps them using temporary variable.
 Expected input and output  
 SwapTwoNumbers(87, 45) → "Before: a = 87, b = 45; After: a = 45, b = 87"  
 SwapTwoNumbers(-13, 2) → "Before: a = -13, b = 2; After: a = 2, b = -13"  
+
+### Conditional Statements Problem 1
+Given an integer, write a method that returns its absolute value.  
+Expected input and output   
+AbsoluteValue(6832) → 6832  
+AbsoluteValue(-392) → 392  

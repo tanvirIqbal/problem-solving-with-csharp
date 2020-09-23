@@ -6,6 +6,7 @@ namespace ProblemSolvingWithCSharp
 {
     public class BasicProblem
     {
+        #region Basic Problems
         public static void AddAndMultiply()
         {
             /*
@@ -126,7 +127,7 @@ namespace ProblemSolvingWithCSharp
         public static void SwapTwoNumbers()
         {
             /*
-             * Given two integers, write a method that swaps them using temporary variable.
+             *  Given two integers, write a method that swaps them using temporary variable.
                 Expected input and output 
                 SwapTwoNumbers(87, 45) → "Before: a = 87, b = 45; After: a = 45, b = 87"
                 SwapTwoNumbers(-13, 2) → "Before: a = -13, b = 2; After: a = 2, b = -13"
@@ -148,6 +149,28 @@ namespace ProblemSolvingWithCSharp
                 return;
             }
             Console.WriteLine(before + after);
+        }
+        #endregion
+
+        public static void AbsoluteValue()
+        {
+            /*
+             *  Given an integer, write a method that returns its absolute value.
+                Expected input and output 
+                AbsoluteValue(6832) → 6832
+                AbsoluteValue(-392) → 392  
+             */
+            bool success1;
+            Console.WriteLine("Enter a Number");
+            success1 = Double.TryParse(Console.ReadLine(), out double firstNumber);
+
+            if (!success1)
+            {
+                Console.WriteLine("You have entered invalid number.");
+                return;
+            }
+            //Console.WriteLine("Result: " + (firstNumber >= 0 ? firstNumber : firstNumber*-1));
+            Console.WriteLine("Result: " + Math.Abs(firstNumber));
         }
     }
 }

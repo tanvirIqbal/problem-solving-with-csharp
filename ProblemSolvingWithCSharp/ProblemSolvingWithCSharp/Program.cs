@@ -6,12 +6,16 @@ namespace ProblemSolvingWithCSharp
     {
         static void Main(string[] args)
         {
+            #region Basic Problems
             //BasicProblem.AddAndMultiply();
             //BasicProblem.CelsiusToFahrenheit();
             //BasicProblem.ElementaryOperations();
             //BasicProblem.ModuloOperations();
             //BasicProblem.TheCubeOf();
-            BasicProblem.SwapTwoNumbers();
+            //BasicProblem.SwapTwoNumbers(); 
+            #endregion
+
+            BasicProblem.AbsoluteValue();
         }
     }
 }
